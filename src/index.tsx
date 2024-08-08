@@ -1,10 +1,14 @@
-import './index.css';
+import React from 'react';
+import * as ReactDOMClient from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import App from "./components/app/app";
 
-import './assets/images/dog.jpg';
 
-const numbers:number[] = [2, 3, 5];
+const container = document.getElementById('root') as HTMLElement;
+const root = ReactDOMClient.createRoot(container!);
 
-// Стрелочная функция. Не запнётся ли на ней Internet Explorer?
-const doubledNumbers = numbers.map(number => number * 2);
-
-console.log(doubledNumbers); // 4, 6, 10
+root.render(
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>
+);
