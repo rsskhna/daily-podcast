@@ -1,7 +1,15 @@
 .app {
+    width: 100%;
+    /*max-width: 1440px;*/
+
     display: flex;
     flex-direction: column;
-    height: 100vh;
+
     background-color: #F7EDE8;
-    color: #f2f2f3;
+
+    font-family: 'MontserratAlternates-Bold', sans-serif;
+    font-size: 14px;
+    color: #000;
+
+    margin: 0 auto;
 }

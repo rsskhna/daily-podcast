@@ -1,0 +1,48 @@
+.support {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-top: 1.5px solid #4D4D4D;
+    border-bottom: 1.5px solid #4D4D4D;
+
+    padding: 20px 0;
+
+    margin-top: 120px;
+}
+
+.title {
+    width: 100%;
+    max-width: 164px;
+
+    font-size: 22px;
+}
+
+.support-list {
+    width: 100%;
+
+    display: flex;
+    gap: 20px;
+}
+
+.support-list-item {
+    padding: 25px 75px;
+}
+
+.support-list-image {
+    width: 100%;
+}
+
+.support-image-spotify {
+    max-width: 128px;
+}
+
+.support-image-google {
+    max-width: 198px;
+}
+
+.support-image-youtube {
+    max-width: 124px;
+}

@@ -1,0 +1,68 @@
+.header {
+    width: 100%;
+    max-width: 1160px;
+
+    display: flex;
+    align-items: center;
+
+    margin: 24px auto 0;
+}
+
+.logo {
+    width: 100%;
+    max-width: 74px;
+    min-height: 74px;
+}
+
+.navigation {
+    width: 100%;
+    max-width: 315px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin:0 286px 0 123px;
+}
+
+.navigation-link {
+    display: flex;
+    align-items: center;
+
+    font-size: 16px;
+}
+
+.arrow-down {
+    width: 16px;
+    height: 16px;
+
+    background-image: url("../../assets/images/Arrow - Down.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    margin-left: 4px;
+}
+
+.buttons-area {
+    width: 100%;
+
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    width: 100%;
+
+    text-transform: uppercase;
+
+    border: 3px solid #000;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.button-black {
+    color: #F7EDE8;
+    background-color: #000;
+
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
