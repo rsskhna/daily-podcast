@@ -4,6 +4,7 @@ import styles from './app.module.css';
 import {Header} from "../header/header";
 import {Lead} from "../lead/lead";
 import {Support} from "../support/support"
+import {About} from "../about/about";
 
 const App = () => {
     return (
@@ -13,6 +14,8 @@ const App = () => {
             <Lead />
 
             <Support />
+
+            <About />
         </div>
     )
 }

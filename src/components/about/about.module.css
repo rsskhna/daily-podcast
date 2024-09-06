@@ -1,0 +1,122 @@
+.about {
+    width: 100%;
+
+    background: #fff;
+
+    padding: 140px;
+}
+
+.title {
+    width: 100%;
+    max-width: 774px;
+
+    font-size: 60px;
+
+    text-align: center;
+
+    margin: 0 auto 100px;
+}
+
+.card-list {
+    width: 100%;
+    max-width: 1160px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto 120px;
+}
+
+.card-list-item {
+    width: 100%;
+    max-width: 472px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card-image {
+    width: 100%;
+    max-width: 275px;
+
+    margin: 0 auto;
+}
+
+.card-text {
+    width: 100%;
+
+    font-family: 'MontserratAlternates-Medium', sans-serif;
+    font-size: 16px;
+
+    text-align: center;
+}
+
+.quote-area {
+    width: 100%;
+    max-width: 1160px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #F7EDE8;
+
+    padding: 40px 0;
+}
+
+.quotation-mark {
+    width: 100%;
+    max-width: 50px;
+
+    font-size: 95px;
+    color: #CD4631;
+
+    margin: 0 auto;
+}
+
+.quote {
+    width: 100%;
+
+    font-size: 37px;
+    text-align: center;
+
+    margin: 0 auto 40px;
+}
+
+.quote-author {
+    width: 100%;
+    max-width: 391px;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 100%;
+    max-width: 48px;
+
+    border-radius: 100px;
+}
+
+.name {
+    width: 100%;
+    max-width: 85px;
+
+    font-family: 'MontserratAlternates-Medium', sans-serif;
+    font-size: 14px;
+}
+
+.spotify-icon {
+    width: 100%;
+    max-width: 16px;
+}
+
+.post {
+    width: 100%;
+    max-width: 212px;
+
+    font-size: 14px;
+}

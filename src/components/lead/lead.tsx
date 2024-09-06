@@ -3,8 +3,8 @@ import {gallery} from '../../services/data/lead-gallery'
 
 const leadGallery = gallery.map(
     image =>
-        <li>
-            <img src={image.src} alt={image.alt} key={image.key}/>
+        <li key={image.key}>
+            <img src={image.src} alt={image.alt} />
         </li>
 )
 

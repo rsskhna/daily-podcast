@@ -3,8 +3,8 @@ import styles from './support.module.css'
 
 const supportImages = support.map(
     image =>
-        <li className={styles.supportListItem}>
-            <img className={image.className} src={image.src} alt={image.alt} key={image.key}/>
+        <li className={styles.supportListItem} key={image.key}>
+            <img className={image.className} src={image.src} alt={image.alt} />
         </li>
 )
 
