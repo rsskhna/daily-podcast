@@ -2,8 +2,8 @@ import styles from './lead.module.css'
 import {gallery} from '../../services/data/lead-gallery'
 
 const leadGallery = gallery.map(
-    image =>
-        <li key={image.key}>
+    (image, index) =>
+        <li key={index}>
             <img src={image.src} alt={image.alt} />
         </li>
 )

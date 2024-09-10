@@ -6,12 +6,10 @@ export const aboutCard = [
         url: manImg,
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.',
         alt: 'man thinking',
-        key: 1
     },
     {
         url: lamp,
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.',
         alt: 'light bulb',
-        key: 2
     }
 ]

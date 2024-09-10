@@ -8,51 +8,41 @@ export const gallery = [
     {
         src: gallery1,
         alt: 'Tesla Autopilot',
-        key: 1
     },
     {
         src: gallery2,
         alt: 'Self–confidence',
-        key: 2
     },
     {
         src: gallery3,
         alt: 'Perplexed Mind',
-        key: 3
     },
     {
         src: gallery4,
         alt: 'Women’s Rights',
-        key: 4
     },
     {
         src: gallery5,
         alt: 'Social Class',
-        key: 5
     },
     {
         src: gallery1,
         alt: 'Tesla Autopilot',
-        key: 6
     },
     {
         src: gallery2,
         alt: 'Self–confidence',
-        key: 7
     },
     {
         src: gallery3,
         alt: 'Perplexed Mind',
-        key: 8
     },
     {
         src: gallery4,
         alt: 'Women’s Rights',
-        key: 9
     },
     {
         src: gallery5,
         alt: 'Social Class',
-        key: 10
     }
 ]

@@ -4,9 +4,9 @@ import avatar from '../../assets/images/about/avatar.jpg'
 import spotify from '../../assets/images/about/spotify.svg'
 
 const cardComponent = aboutCard.map(
-    cardInfo => {
+    (cardInfo, index) => {
         return (
-            <li className={styles.cardListItem} key={cardInfo.key}>
+            <li className={styles.cardListItem} key={index}>
                 <img className={styles.cardImage} src={cardInfo.url} alt={cardInfo.alt}/>
                 <p className={styles.cardText}>{cardInfo.text}</p>
             </li>

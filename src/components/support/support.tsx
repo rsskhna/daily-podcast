@@ -2,8 +2,8 @@ import {support} from "../../services/data/support";
 import styles from './support.module.css'
 
 const supportImages = support.map(
-    image =>
-        <li className={styles.supportListItem} key={image.key}>
+    (image, index) =>
+        <li className={styles.supportListItem} key={index}>
             <img className={image.className} src={image.src} alt={image.alt} />
         </li>
 )

@@ -7,18 +7,15 @@ export const support = [
         className: 'support-list-image support-image-spotify',
         src: spotify,
         alt: 'Spotify',
-        key: 1
     },
     {
         className: 'support-list-image support-image-google',
         src: google,
         alt: 'Google Podcast',
-        key: 2
     },
     {
         className: 'support-list-image support-image-youtube',
         src: youtube,
         alt: 'YouTube',
-        key: 3
     }
 ]
