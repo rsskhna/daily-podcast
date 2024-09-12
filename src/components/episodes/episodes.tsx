@@ -4,6 +4,24 @@ import {episodesInfo} from "../../services/data/episodes";
 
 const episode = episodesInfo.map(
     (info, index) => {
+        const tags = info.tags.map(
+            (tag, index) => {
+                return (
+                    <li className={styles.tagsListItem} key={index}>{tag}</li>
+                )
+            }
+        )
+
+        const hosts = info.hostedBy.map(
+            (host, index) => {
+                return (
+                    <li className={styles.hostsListItem} key={index}>
+                        <img className={styles.hostImg} src={host} alt='avatar'/>
+                    </li>
+                )
+            }
+        )
+
         return (
             <li className={styles.cardsListItem} key={index}>
                 <div className={styles.imgDescriptionArea}>
@@ -20,10 +38,16 @@ const episode = episodesInfo.map(
                 </div>
 
                 <div className={styles.tagsHostsArea}>
-                    <ul className={styles.tagsList}></ul>
+                    <ul className={styles.tagsList}>
+                        {tags}
+                    </ul>
 
-                    <p className={styles.hosts}>Hosted by:</p>
-                    <ul className={styles.hostsList}></ul>
+                    <div className={styles.hostsArea}>
+                        <p className={styles.hosts}>Hosted by:</p>
+                        <ul className={styles.hostsList}>
+                            {hosts}
+                        </ul>
+                    </div>
                 </div>
             </li>
         )

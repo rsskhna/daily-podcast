@@ -25,13 +25,17 @@
     flex-direction: column;
     gap: 20px;
 
+    background: #FFF;
+
     border: 2px solid #000;
     border-radius: 12px;
 
     padding: 16px;
 }
 
-.cards-list-item:nth-child(odd) {}
+.cards-list-item:nth-child(1), .cards-list-item:nth-child(4n), .cards-list-item:nth-child(5n){
+    box-shadow: #81ADC8 10px 10px;
+}
 
 .img-description-area {
     width: 100%;
@@ -91,17 +95,64 @@
     font-size: 14px;
 }
 
-.tags-hosts-area {}
+.tags-hosts-area {
+    width: 100%;
 
-.tags-list {}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.tags-list-item {}
+.tags-list {
+    width: max-content;
+
+    display: flex;
+    gap: 6px;
+}
+
+.tags-list-item {
+    width: 100%;
+    max-width: max-content;
+
+    font-family: 'MontserratAlternates-Medium', sans-serif;
+    font-size: 12px;
+
+    border: 1px solid #000;
+    border-radius: 4px;
+
+    padding: 6px 12px;
+}
+
+.hosts-area {
+    width: 100%;
+    max-width: 135px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .hosts {}
 
-.hosts-list {}
+.hosts-list {
+    width: 100%;
+    max-width: max-content;
 
-.hosts-list-item {}
+    display: flex;
+    align-items: center;
+}
+
+.hosts-list-item {
+    width: 100%;
+}
+
+.host-img {
+    width: 100%;
+    max-width: 26px;
+
+    border-radius: 100px;
+    border: 2px solid #FFF;
+}
 
 .button {
     width: 100%;
