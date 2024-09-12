@@ -26,7 +26,7 @@ export const About = () => {
             <div className={styles.quoteArea}>
                 <p className={styles.quotationMark}>“</p>
 
-                <p className={styles.quote}>One of the best daily podcasts that<br/> covers every topic on Spotify.</p>
+                <p className={styles.quote}>One of the best daily podcasts that<br/>covers every topic on Spotify.</p>
                 <div className={styles.quoteAuthor}>
                     <img className={styles.avatar} src={avatar} alt='John Smith'/>
                     <p className={styles.name}>John Smith,</p>

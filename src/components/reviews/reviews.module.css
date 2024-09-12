@@ -1,0 +1,68 @@
+.reviews {
+    width: 100%;
+
+    overflow: hidden;
+
+    background: #EDF3F7;
+
+    padding: 140px 0 100px;
+}
+
+.review-list {
+    width: max-content;
+
+    display: flex;
+
+    gap: 20px;
+
+    margin: 0 0 60px 140px;
+}
+
+.review-list-item {
+    width: 100%;
+}
+
+.buttons-area {
+    width: 100%;
+    max-width: 110px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 140px;
+}
+
+.button {
+    width: 100%;
+    max-width: 40px;
+    min-height: 40px;
+
+    border: none;
+    border-radius: 100px;
+
+    padding: 0;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    transition: background 0.2s ease-in-out;
+}
+
+.button-left {
+    background-image: url("../../assets/images/reviews/ArrowBlack.svg");
+}
+
+.button-left:hover {
+    background-image: url("../../assets/images/reviews/ArrowRed.svg");
+}
+
+.button-right {
+    background-image: url("../../assets/images/reviews/ArrowBlack.svg");
+    scale: -1 1;
+}
+
+.button-right:hover {
+    background-image: url("../../assets/images/reviews/ArrowRed.svg");
+}
