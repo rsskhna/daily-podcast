@@ -35,6 +35,11 @@ export const About = () => {
                     <p className={styles.post}>Social Community Manager</p>
                 </div>
             </div>
+
+            <div className={`${styles.absoluteImg} ${styles.springRed}`}></div>
+            <div className={`${styles.absoluteImg} ${styles.springBlack}`}></div>
+            <div className={`${styles.absoluteImg} ${styles.springBig}`}></div>
+            <div className={`${styles.absoluteImg} ${styles.star}`}></div>
         </section>
     )
 }

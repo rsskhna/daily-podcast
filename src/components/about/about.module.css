@@ -1,7 +1,11 @@
 .about {
     width: 100%;
 
+    display: flex;
+    flex-direction: column;
+
     background: #fff;
+    position: relative;
 
     padding: 140px;
 }
@@ -119,4 +123,54 @@
     max-width: 212px;
 
     font-size: 14px;
+}
+
+.absolute-img {
+    width: 100%;
+
+    position: absolute;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.spring-red {
+    max-width: 150px;
+    min-height: 150px;
+
+    top: -74px;
+    right: 645px;
+
+    background-image: url("../../assets/images/about/scribble.svg");
+}
+
+.spring-black {
+    max-width: 150px;
+    min-height: 150px;
+
+    bottom: -74px;
+    right: 645px;
+
+    background-image: url("../../assets/images/spring-black.svg");
+}
+
+.spring-big {
+    max-width: 120px;
+    min-height: 120px;
+
+    bottom: 189px;
+    left: 80px;
+
+    background-image: url("../../assets/images/about/spring.svg");
+}
+
+.star {
+    max-width: 200px;
+    min-height: 200px;
+
+    bottom: 384px;
+    right: 65px;
+
+    background-image: url("../../assets/images/about/star 4.svg");
 }
