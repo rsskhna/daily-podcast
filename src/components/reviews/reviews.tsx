@@ -37,6 +37,8 @@ export const Reviews = () => {
                 <button className={`${styles.button} ${styles.buttonLeft}`}></button>
                 <button className={`${styles.button} ${styles.buttonRight}`}></button>
             </div>
+
+            <div className={styles.sparkle}></div>
         </section>
     )
 }

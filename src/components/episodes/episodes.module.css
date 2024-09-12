@@ -1,0 +1,123 @@
+.episodes {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 140px;
+}
+
+.cards-list {
+    width: 100%;
+    max-width: 1160px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    margin: 0 auto 100px;
+}
+
+.cards-list-item {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 2px solid #000;
+    border-radius: 12px;
+
+    padding: 16px;
+}
+
+.cards-list-item:nth-child(odd) {}
+
+.img-description-area {
+    width: 100%;
+
+    display: flex;
+    gap: 20px;
+}
+
+.image {
+    width: 100%;
+    max-width: 163px;
+
+    object-fit: contain;
+    object-position: center;
+}
+
+.description-area {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 18px 0;
+}
+
+.episode-number {
+    width: 100%;
+
+    font-size: 16px;
+    color: #CD4631;
+
+    margin-bottom: 4px;
+}
+
+.episode-title {
+    width: 100%;
+
+    font-size: 22px;
+    color: #CD4631;
+
+    margin-bottom: 15px;
+}
+
+.line {
+    width: 100%;
+    min-height: 1px;
+
+    border-top: 1px solid #000;
+
+    margin-bottom: 10px;
+}
+
+.episode-description {
+    width: 100%;
+
+    font-family: 'MontserratAlternates-Medium', sans-serif;
+    font-size: 14px;
+}
+
+.tags-hosts-area {}
+
+.tags-list {}
+
+.tags-list-item {}
+
+.hosts {}
+
+.hosts-list {}
+
+.hosts-list-item {}
+
+.button {
+    width: 100%;
+    max-width: 260px;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    border: 3px solid #000;
+    border-radius: 8px;
+    padding: 20px 36px;
+
+    color: #F7EDE8;
+    background-color: #000;
+
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+
+    margin: 0 auto;
+}
